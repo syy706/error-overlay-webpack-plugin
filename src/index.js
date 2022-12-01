@@ -2,7 +2,7 @@ const errorOverlayMiddleware = require('react-dev-utils/errorOverlayMiddleware')
 
 const chunkPathBasic = require.resolve('./entries/basic')
 const chunkPathDevServer = require.resolve('./entries/devserver')
-
+console.log()
 class ErrorOverlayPlugin {
   apply(compiler) {
     const className = this.constructor.name
